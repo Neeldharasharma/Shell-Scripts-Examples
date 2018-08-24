@@ -26,7 +26,4 @@ sudo chef-server-ctl install opscode-reporting sudo chef-server-ctl reconfigure 
 
 sudo mkdir .chef
 
-for Ubuntu
-sudo dpkg -i /tmp/chef-server-core-<version>.deb
-Run the following to start all of the services:
-chef-server-ctl reconfigure
+
