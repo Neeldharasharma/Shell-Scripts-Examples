@@ -1,0 +1,32 @@
+#update all current system packages
+
+sudo apt-get update
+
+#Download chef packages
+
+sudo wget https://packages.chef.io/files/stable/chef-server/12.15.8/ubuntu/16.04/chef-server-core_12.15.8-1_amd64.deb
+
+#Command to start the installation process of chef
+
+sudo dpkg -i chef-server-core_12.15.8-1_amd64.deb
+
+#check current status of chef server
+
+sudo chef-server-ctl status
+
+#Install management console
+
+sudo chef-server-ctl install chef-manage sudo chef-server-ctl reconfigure sudo chef-manage-ctl reconfigure
+
+#Install reporting features
+
+sudo chef-server-ctl install opscode-reporting sudo chef-server-ctl reconfigure sudo opscode-reporting-ctl reconfigure
+
+#Create a directory to store all the keys
+
+sudo mkdir .chef
+
+for Ubuntu
+sudo dpkg -i /tmp/chef-server-core-<version>.deb
+Run the following to start all of the services:
+chef-server-ctl reconfigure
