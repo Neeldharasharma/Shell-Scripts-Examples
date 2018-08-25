@@ -6,8 +6,6 @@ echo "Starting the script"
 
 date
 
-hostname
-
 uname -r
 
 uname -m
@@ -20,7 +18,7 @@ Script Returns
 
 Starting the script
 Thu Aug 16 15:03:25 EDT 2018
-Neeldharas-MacBook-Pro.local
+
 17.7.0
 x86_64
 Filesystem      Size   Used  Avail Capacity iused               ifree %iused  Mounted on
