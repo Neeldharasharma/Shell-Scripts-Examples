@@ -11,6 +11,7 @@ python3 --version
 
 # Run pip --version to see if your version of Linux already includes Python and pip
 pip --version
+cd /tmp
 
 #Download the installation script from pypa.io:
 curl -O https://bootstrap.pypa.io/get-pip.py
@@ -37,3 +38,5 @@ aws --version
 pip install awscli --upgrade --user
 
 aws configure
+
+pip install boto3 --user
