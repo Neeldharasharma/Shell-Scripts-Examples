@@ -37,6 +37,8 @@ aws --version
 #To upgrade to the latest version, run the installation command again
 pip install awscli --upgrade --user
 
+#Configure region
 aws configure
 
+#Install boto3
 pip install boto3 --user
