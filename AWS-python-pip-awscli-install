@@ -15,7 +15,7 @@ cd /tmp
 
 #Download the installation script from pypa.io:
 curl -O https://bootstrap.pypa.io/get-pip.py
-
+https://github.com/Neeldharasharma/Shell-Scripts-Examples/issues
 #Run the script with Python
 python get-pip.py --user
 
@@ -42,3 +42,5 @@ aws configure
 
 #Install boto3
 pip install boto3 --user
+
+
