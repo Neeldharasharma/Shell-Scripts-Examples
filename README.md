@@ -5,8 +5,6 @@
 #Check to see if Python is already installed
 python --version
 
-![](/image/test.png)
-
 #install python
 sudo yum install python3
 
